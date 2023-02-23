@@ -1,0 +1,246 @@
+/* header slider */
+.our-slider {
+    position: relative;
+}
+
+.slider_image {
+    position: relative;
+    height: 96%;
+    padding-top: 76px;
+}
+
+.slider_image img {
+    height: 100%;
+}
+
+.owl-item.active .img_content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.slider_image .img_content {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    background: #ffffffd4;
+    width: 353px;
+    padding: 30px 35px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.slider_image .img_content h5 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.slider_image .img_content p {
+    margin-bottom: 13px;
+    font-size: 18px;
+}
+
+.slider_image .img_content span {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slider_image .img_content span i {
+    margin-left: 90px;
+}
+
+.owl-item.active .hero_content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hero_content {
+    position: absolute;
+    width: 494px;
+    left: -115px;
+    top: 0;
+    padding: 65px;
+    background: #ffffffba;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.hero_content h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 78px;
+    margin-bottom: 19px;
+}
+
+.hero_content p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 352px;
+    line-height: 34px;
+}
+
+.hero_content .shop_button {
+    display: block;
+    width: 370px;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 20px;
+}
+
+.header .our-slider .owl-nav {
+    position: absolute;
+    right: 169px;
+    top: 0;
+}
+
+.header .our-slider .owl-nav button {
+    background: #E89F71 !important;
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 50%;
+}
+
+.header .our-slider .owl-dots {
+    position: absolute;
+    top: 31px;
+    left: 41%;
+}
+
+.header .our-slider .owl-dots .owl-dot.active {
+    border: 1px solid #E89F71 !important;
+    margin: 0 8px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.header .our-slider .owl-dots .owl-dot.active span {
+    background: #E89F71 !important;
+}
+
+/* header slider  */
+
+/* Tips slider*/
+.ProductSlider {
+    position: relative;
+}
+
+.ProductSlider .tips_slider_item {
+    box-shadow: 0px 1px 10px #00000029;
+    margin: 4px 0px;
+}
+
+.ProductSlider .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: calc(100% + 18px);
+    top: 33%;
+    left: -8px;
+}
+
+.ProductSlider .owl-nav button {
+    color: #E89F71 !important;
+    background: white !important;
+    width: 50px;
+    height: 50px;
+    font-size: 19px !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 0px 6px #0000008a;
+}
+
+.ProductSlider .owl-nav .owl-prev {}
+
+.ProductSlider .owl-nav .owl-next {}
+
+
+.ProductSlider .owl-dots {
+    margin-top: 26px;
+}
+
+.ProductSlider .owl-dots .owl-dot.active {
+    border: 1px solid #E89F71 !important;
+    margin: 0 8px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.ProductSlider .owl-dots .owl-dot.active span {
+    background: #E89F71 !important;
+}
+
+/* Tips slider */
+
+/* inspiration */
+.inspiration {
+    position: relative;
+}
+
+.ins .owl-stage {
+    padding-left: 0px !important;
+}
+
+.ins .owl-item {}
+
+.ins .owl-item .item {}
+
+.ins .owl-item .item .ins_pic {
+    height: 500px;
+}
+
+.ins .owl-item.active .item .ins_pic {
+    height: 582px;
+}
+
+.ins_pic img {
+    height: 100% !important;
+}
+
+.ins .owl-nav {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+}
+
+.ins .owl-nav .owl-prev {
+    display: none;
+}
+
+.ins .owl-nav button {
+    color: #E89F71 !important;
+    background: white !important;
+    width: 50px;
+    height: 50px;
+    font-size: 19px !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 0px 6px #0000008a;
+}
+
+.ins .owl-dots {
+    position: absolute;
+    bottom: 31px;
+    left: 60%;
+}
+
+.ins .owl-dots .owl-dot.active {
+    border: 1px solid #E89F71 !important;
+    margin: 0 8px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.ins .owl-dots .owl-dot.active span {
+    background: #E89F71 !important;
+}
+
+/* inspiration */
